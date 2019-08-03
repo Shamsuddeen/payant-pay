@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jonathanitakpe/payantng-php": "^0.1.4"
+    }
+}
