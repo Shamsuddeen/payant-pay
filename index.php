@@ -7,7 +7,7 @@
 	// User Details End
 	$amount 	= 300; // Amount in Naira
 
-	$public_key = "875c0cec3a1fae52b5ce536d0e4ec3790d751033"; // You can get it at https://dashboard.payant.ng or https://dashboard.demo.payant.ng for Demo use only
+	$public_key = "YOUR_PAYANT_PUBLIC_KEY"; // You can get it at https://dashboard.payant.ng or https://dashboard.demo.payant.ng for Demo use only
 	$status		= "demo"; // You can switch between demo or live
 ?>
 <!DOCTYPE html>
