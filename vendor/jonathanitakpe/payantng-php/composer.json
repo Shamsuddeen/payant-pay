@@ -1,0 +1,24 @@
+{
+    "name": "jonathanitakpe/payantng-php",
+    "description": "A PHP Wrapper for the PayantNG API",
+    "authors": [
+        {
+            "name": "Jonathan Itakpe",
+            "email": "jonathan@floatr.com.ng",
+            "company": "floatr inc."
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+			"PayantNG\\Payant\\": "src/PayantNG/Payant/"
+			},
+        "files": [
+            "src/PayantNG/Support/helpers.php"
+        ]
+    },
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
