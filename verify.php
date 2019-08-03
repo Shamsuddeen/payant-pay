@@ -1,5 +1,5 @@
 <?php
-  $secret_key = "b769a549808ac73281dece30c23c6f189018b3edeb7dc66bceb6f6c6"; // You can get it at https://dashboard.payant.ng
+  $secret_key = "YOUR_PAYANT_PRIVATE_KEY"; // You can get it at https://dashboard.payant.ng
   // Confirm that reference has not already gotten value
   // This would have happened most times if you handle the charge.success event.
   // If it has already gotten value by your records, you may call 
