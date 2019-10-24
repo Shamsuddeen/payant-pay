@@ -25,9 +25,15 @@
     echo json_encode($trx);
     $channel      = $trx->data->channel;
     $amount       = $trx->data->amount;
+    if(0 == $trx->data->fraud_status){
+      //if there is no fraud status perform execute below functions
+      // give_value($reference, $trx);
+      // perform_success();
+    }else{
+      //if fraud status do not perform the operation
 
-    // give_value($reference, $trx);
-    // perform_success();
+    }
+    
   }else{
     echo "Error: ";
   }
